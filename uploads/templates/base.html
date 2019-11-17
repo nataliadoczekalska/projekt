@@ -8,14 +8,16 @@
   </head>
   <body>
     <header>
+      <h3>Wybierz swoją kategorię:</h3>
       <nav>
           <ul>
               <li><a href="{% url 'stronaglowna' %}">Strona Główna</a></li>
               <li><a href="{% url 'pizza' %}">Pizza</a></li>
               <li><a href="{% url 'burgery' %}">Burgery</a></li>
               <li><a href="{% url 'kebab' %}">Kebab</a></li>
-              <li><a href="{& url 'tajskie' %}">Tajskie</a></li>
-              <li><a href="{& url 'wege' %}">Wege</a></li>
+              <li><a href="{% url 'tajskie' %}">Tajskie</a></li>
+              <li><a href="{% url 'wege' %}">Wege</a></li>
+              <li><a href="{% url 'sushi' %}">Sushi</a></li>
           </ul>
       </nav>
     </header>

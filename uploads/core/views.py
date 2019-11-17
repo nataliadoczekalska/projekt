@@ -28,3 +28,7 @@ def tajskie(request):
 def wege(request):
     print('wege')
     return render(request, 'wege.html')
+
+def sushi(request):
+    print('sushi')
+    return render(request, 'sushi.html')

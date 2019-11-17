@@ -1,9 +1,24 @@
 h1 {
-  color: #002395;
+  color: #000000;
+  font-size: 40px;
+}
+h2 {
+  color: #18A61E;
+  text-align: center;
+  font-size: 50px;
+}
+h3 {
+  color: #18A61E;
+  font-size: 30px;
+  text-align: center;
 }
 
 body{
-  background-image: url("/static/img/bg.jpg");
+  background-image: url("/static/img/backg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 input[type=file], select {
@@ -34,11 +49,11 @@ input[type=submit]:hover {
 /* Menu */
 nav ul {
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f324;
+  border: 0px solid #373439;
+  background-color: #D1CED0;
 }
 
 nav ul li {
@@ -47,14 +62,15 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: #666;
+  color: #373439;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 60px;
   text-decoration: none;
+  font-size: 25px;
 }
 
 nav ul li a:hover:not(.active) {
-  background-color: #ddd;
+  background-color: #9F98C9;
 }
 
 /* Tables */
@@ -63,7 +79,27 @@ td, th {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2;}
+table.comicGreen {
+  font-family: "Comic Sans MS"e;
+  border: 0px solid #4F7849;
+  background-color: #CEE0CC;
+  width: 1200px;
+  height: 800px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.comicGreen td, table.comicGreen th {
+  border: 5px solid #000000;
+  padding: 15px 0px;
+}
+table.comicGreen tbody td {
+  font-size: 25px;
+  font-weight: normal;
+  color: #4F7849;
+}
+table.comicGreen tfoot td {
+  font-size: 20px;
+}
 
 tr:hover {background-color: #ddd;}
 

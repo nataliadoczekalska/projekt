@@ -25,4 +25,5 @@ urlpatterns = [
     path('kebab/', views.kebab, name='kebab'),
     path('tajskie/', views.tajskie, name='tajskie'),
     path('wege/', views.wege, name='wege'),
+    path('sushi/', views.sushi, name='sushi'),
 ]
