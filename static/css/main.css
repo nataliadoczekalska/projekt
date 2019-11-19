@@ -1,6 +1,6 @@
 h1 {
-  color: #000000;
-  font-size: 40px;
+  color: #479E53;
+  font-size: 50px;
 }
 h2 {
   color: #18A61E;
@@ -8,9 +8,13 @@ h2 {
   font-size: 50px;
 }
 h3 {
-  color: #18A61E;
+  color: #5D3B8A;
   font-size: 30px;
   text-align: center;
+}
+h4 {
+  color: #5D3B8A;
+  font-size: 30px;
 }
 
 body{
